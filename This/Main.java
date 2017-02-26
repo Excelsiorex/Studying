@@ -9,5 +9,7 @@ public class Main {
         aThis.print();
 
         Constructors constructors = new Constructors(i, "apples");
+
+        This a;
     }
 }
