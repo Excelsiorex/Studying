@@ -10,9 +10,10 @@ public class Main {
         doSomething(triangle);
     }
 
-    // polymorphism here
+    // полиморфизм тут (восходящее преобразование)
     private static void doSomething(Shape shape) {
         shape.erase();
         shape.draw();
+        // shape.edit(); // не работает
     }
 }

@@ -30,4 +30,9 @@ public class Triangle extends Shape {
         // тут еще код
         System.out.println("Вы создали новый ТРЕУГОЛЬНИК (возможно)");
     }
+
+    // new method
+    public void edit() {
+        System.out.println("Вы отредактировали ТРЕУГОЛЬНИК (возможно)");
+    }
 }

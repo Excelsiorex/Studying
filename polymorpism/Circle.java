@@ -26,4 +26,9 @@ public class Circle extends Shape {
         // тут еще код
         System.out.println("Вы создали новый КРУГ (возможно)");
     }
+
+    // new method
+    public void edit() {
+        System.out.println("Вы отредактировали КРУГ (возможно)");
+    }
 }
