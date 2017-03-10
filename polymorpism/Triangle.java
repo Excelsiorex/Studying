@@ -31,6 +31,14 @@ public class Triangle extends Shape {
         System.out.println("Вы создали новый ТРЕУГОЛЬНИК (возможно)");
     }
 
+    /**
+     * Приватный метод не может быть переобпределён
+     */
+    /*@Override
+    private void put() {
+        System.out.println("Вызов в обобщённом классе");
+    }*/
+
     // new method
     public void edit() {
         System.out.println("Вы отредактировали ТРЕУГОЛЬНИК (возможно)");
