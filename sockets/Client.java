@@ -4,9 +4,7 @@ import java.io.*;
 import java.net.InetAddress;
 import java.net.Socket;
 
-/**
- * Created by User on 02.03.2017.
- */
+
 public class Client {
     public static void main(String[] ar) {
         int serverPort = 7777; // здесь обязательно нужно указать порт к которому привязывается сервер
@@ -30,7 +28,7 @@ public class Client {
 
             // Создаем поток для чтения с клавиатуры.
             BufferedReader keyboard = new BufferedReader(new InputStreamReader(System.in));
-            String line = null;
+            String line;
             System.out.println("Type in something and press enter. Will send it to the server and tell ya what it thinks.");
             System.out.println();
 

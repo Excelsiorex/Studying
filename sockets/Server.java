@@ -3,9 +3,7 @@ package sockets;
 import java.net.*;
 import java.io.*;
 
-/**
- * Created by User on 02.03.2017.
- */
+
 public class Server {
     public static void main(String[] ar) {
         int port = 7777;
@@ -25,7 +23,7 @@ public class Server {
             DataInputStream in = new DataInputStream(sin);
             DataOutputStream out = new DataOutputStream(sout);
 
-            String line = null;
+            String line;
             while (true) {
                 line = in.readUTF(); // ожидаем пока клиент пришлет строку текста
                 System.out.println("Клиент отправил строку текста: " + line);
