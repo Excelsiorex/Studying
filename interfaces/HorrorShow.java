@@ -9,6 +9,7 @@ public class HorrorShow {
     private static void v(Killer k) {
         k.menace();
         k.kill();
+
     }
 
     private static void w(SuperKiller s) {
