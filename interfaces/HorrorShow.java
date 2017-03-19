@@ -27,5 +27,6 @@ public class HorrorShow {
         u(superKiller);
         v(superKiller);
         w(superKiller); // it works!
+
     }
 }
