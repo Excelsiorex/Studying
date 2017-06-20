@@ -27,15 +27,12 @@ public class Circle extends Shape {
         System.out.println("Вы создали новый КРУГ (возможно)");
     }
 
-    /**
-     * Приватный метод не может быть переобпределён
-     */
+    // Приватный метод не может быть переобпределён
     /*@Override
     private void put() {
         System.out.println("Вызов в обобщённом классе");
     }*/
 
-    // new method
     public void edit() {
         System.out.println("Вы отредактировали КРУГ (возможно)");
     }
