@@ -1,7 +1,11 @@
 package sockets;
 
-import java.net.*;
-import java.io.*;
+import java.io.DataInputStream;
+import java.io.DataOutputStream;
+import java.io.InputStream;
+import java.io.OutputStream;
+import java.net.ServerSocket;
+import java.net.Socket;
 
 
 public class Server {
@@ -9,7 +13,7 @@ public class Server {
         int port = 7777;
         try {
             ServerSocket ss = new ServerSocket(port);
-            System.out.println("Привет! Я сервер, и я жду тебя, клиент.");
+            System.out.println("Привет! Я сервер, и я жду клиентов.");
 
             Socket socket = ss.accept(); // Клиент законнектился
             System.out.println("А вот и клиент. Его IP: " + socket.getInetAddress());
@@ -26,19 +30,13 @@ public class Server {
             String line;
             while (true) {
                 line = in.readUTF(); // ожидаем пока клиент пришлет строку текста
-                System.out.println("Клиент отправил строку текста: " + line);
-                System.out.println("А я ему её обратно...");
-                out.writeUTF(line); // отсылаем клиенту обратно ту самую строку текста
+                System.out.println(socket.getInetAddress() + ": " + line);
+                out.writeUTF("Твой текст: " + line + " и твой IP: " + socket.getInetAddress()); // ответ клиенту
                 out.flush(); // заставляем поток закончить передачу данных
-                System.out.println("Ждём еще сообщений...");
-                System.out.println();
+                // Ждём сообщений
             }
         } catch (Exception x) {
             x.printStackTrace();
         }
     }
-    static {
-
-    }
-
 }
