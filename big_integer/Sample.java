@@ -17,4 +17,15 @@ class Sample {
         System.out.println(bigInteger_1.add(bigInteger_2));
         System.out.println(bigInteger_1.multiply(bigInteger_2));
     }
+
+    static void isProbablyPrime() {
+        Scanner in = new Scanner(System.in);
+        BigInteger n = in.nextBigInteger();
+        in.close();
+        if (n.isProbablePrime(10)) {
+            System.out.println("prime");
+        } else {
+            System.out.println("not prime");
+        }
+    }
 }
