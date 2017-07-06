@@ -3,10 +3,12 @@ package strings;
 
 public class Main {
     public static void main(String[] args) {
-        StringTokens.getResult();
+        //StringTokens.getResult();
 
-        DuplicateWords.getResult();
+        //DuplicateWords.getResult();
 
-        UsernameChecker.getResult();
+        //UsernameChecker.getResult();
+
+        TagContentExtractor.getResult();
     }
 }
