@@ -1,10 +1,10 @@
-package This;
+package this_samples;
 
 
-public class Constructors {
+class Constructors {
     private int i = 0;
 
-    Constructors(int i) {
+    private Constructors(int i) {
         this.i = i;
         this.i++;
         System.out.println("Constructor with int parameter, i = " + this.i);

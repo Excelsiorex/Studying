@@ -1,7 +1,7 @@
-package This;
+package this_samples;
 
 
-public class This {
+class This {
     private int i = 0;
 
     This increment() {
