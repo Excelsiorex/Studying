@@ -8,8 +8,8 @@ import java.util.Scanner;
  * You will be given two integers x and y as input, you have to compute x/y . If and y are not 32 bit signed integers or if y is zero,
  * exception will occur and you have to report it. Read sample Input/Output to know what to report in case of exceptions.
  */
-public class Sample {
-    public static void getResult() {
+class Sample {
+    static void getResult() {
         Scanner scanner = new Scanner(System.in);
         try {
             int x = scanner.nextInt();
