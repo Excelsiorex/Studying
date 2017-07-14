@@ -3,6 +3,8 @@ package arrays;
 
 public class Main {
     public static void main(String[] args) {
-        ArrayLists.getResult();
+        // ArrayLists.getResult();
+
+        Array1D.getResult();
     }
 }
