@@ -1,7 +1,7 @@
 package inner_classes;
 
 
-public class Main {
+class Main {
     class Contents {
         private int i = 11;
 

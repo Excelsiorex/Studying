@@ -1,7 +1,7 @@
 package interfaces;
 
 
-public class VeryBadSuperKiller implements SuperKiller {
+class VeryBadSuperKiller implements SuperKiller {
 
     @Override
     public void drinkBlood() {

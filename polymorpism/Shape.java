@@ -1,7 +1,7 @@
 package polymorpism;
 
 
-public class Shape {
+class Shape {
 
     public void erase() {
         System.out.println("Вызов в обобщённом классе");

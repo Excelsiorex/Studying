@@ -1,7 +1,7 @@
 package toString;
 
 
-public class Main {
+class Main {
     public static void main(String[] args) {
         // композиция
         Home home = new Home();

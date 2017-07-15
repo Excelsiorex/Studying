@@ -1,7 +1,7 @@
 package toString;
 
 
-public class Door {
+class Door {
     private String s;
 
     Door() {

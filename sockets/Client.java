@@ -5,7 +5,7 @@ import java.net.InetAddress;
 import java.net.Socket;
 
 
-public class Client {
+class Client {
     public static void main(String[] ar) {
         int serverPort = 7777; // здесь обязательно нужно указать порт к которому привязывается сервер
         String address = "127.0.0.1"; // это IP-адрес компьютера, где исполняется наша серверная программа

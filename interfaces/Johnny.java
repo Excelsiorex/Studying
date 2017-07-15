@@ -1,7 +1,7 @@
 package interfaces;
 
 
-public class Johnny implements Killer {
+class Johnny implements Killer {
 
     @Override
     public void menace() {

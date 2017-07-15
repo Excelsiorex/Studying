@@ -1,7 +1,7 @@
 package interfaces;
 
 
-public class HorrorShow {
+class HorrorShow {
     private static void u(Bandit b) {
         b.menace();
     }

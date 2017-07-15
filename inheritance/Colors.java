@@ -1,7 +1,7 @@
 package inheritance;
 
 
-public class Colors {
+class Colors {
     // Перегрузка начинается в базовом классе
     public void out() {
         System.out.println("Class `Colors` used!");

@@ -11,7 +11,7 @@ import java.util.Scanner;
  * If the first line of a query contains the String Insert, then the second line contains two space separated integers x y, and the value y must be inserted into L at index x.
  * If the first line of a query contains the String Delete, then the second line contains index x, whose element must be deleted from L.
  */
-public class List {
+class List {
     public static void getResult() {
         Scanner scanner = new Scanner(System.in);
         int N = scanner.nextInt();

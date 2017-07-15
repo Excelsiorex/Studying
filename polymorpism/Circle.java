@@ -1,7 +1,7 @@
 package polymorpism;
 
 
-public class Circle extends Shape {
+class Circle extends Shape {
     private boolean isExists;
     private Integer radius;
 

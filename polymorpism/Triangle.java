@@ -1,7 +1,7 @@
 package polymorpism;
 
 
-public class Triangle extends Shape {
+class Triangle extends Shape {
     private boolean ifExists;
     private Integer length1, length2, length3;
 

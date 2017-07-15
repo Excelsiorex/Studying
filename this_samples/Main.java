@@ -1,6 +1,6 @@
 package this_samples;
 
-public class Main {
+class Main {
     private static int i = 0;
 
     public static void main(String[] args) {

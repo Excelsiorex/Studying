@@ -4,7 +4,7 @@ import java.util.Locale;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class Main {
+class Main {
     public static void main(String[] args) {
         String string = "hello, regex";
         if(matchString(string)) {

@@ -11,7 +11,7 @@ import java.util.Scanner;
  * If two numbers represent numerically equivalent values (e.g., .1 = 0.1), then they must be listed in the same order as they were received as input).
  * Complete the code in the unlocked section of the editor below. You must rearrange array 's elements according to the instructions above.
  */
-public class Sample {
+class Sample {
     public static void getResult() {
         // Input
         Scanner sc = new Scanner(System.in);

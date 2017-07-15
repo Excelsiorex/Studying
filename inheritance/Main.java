@@ -1,7 +1,7 @@
 package inheritance;
 
 
-public class Main {
+class Main {
     public static void main(String[] args) {
         // Наследование + общая перегрузка для базового класса и производного
         White white = new White();

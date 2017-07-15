@@ -9,7 +9,7 @@ import java.util.Scanner;
  * The first line will have an integer n denoting the number of entries in the phone book. Each entry consists of two lines: a name and the corresponding phone number.
  * After these, there will be some queries. Each query will contain a person's name. Read the queries until end-of-file.
  */
-public class Maps {
+class Maps {
     public static void getResult() {
         Map<String, String> phoneBook = new HashMap<>();
         Scanner scanner = new Scanner(System.in);
