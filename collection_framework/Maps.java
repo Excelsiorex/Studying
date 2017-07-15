@@ -1,4 +1,4 @@
-package maps;
+package collection_framework;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -10,7 +10,7 @@ import java.util.Scanner;
  * After these, there will be some queries. Each query will contain a person's name. Read the queries until end-of-file.
  */
 class Maps {
-    public static void getResult() {
+    static void getResult() {
         Map<String, String> phoneBook = new HashMap<>();
         Scanner scanner = new Scanner(System.in);
         int n = Integer.valueOf(scanner.nextLine());
