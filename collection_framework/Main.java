@@ -10,5 +10,7 @@ class Main {
         Sets.getSetResult();
 
         Sets.getBitSetResult();
+
+        Queues.getResult();
     }
 }
