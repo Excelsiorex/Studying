@@ -1,8 +1,11 @@
-package md5;
+package cryptography;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
+/**
+ * Given an alphanumeric string, str, denoting a password, compute and print its MD5 encryption value.
+ */
 class MD5 {
     static String getMD5FromString(String str) {
         try {
