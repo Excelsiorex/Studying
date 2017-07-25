@@ -10,5 +10,8 @@ class Main {
 
         String md5 = MD5.getMD5FromString(str);
         System.out.println(md5);
+
+        String sha256 = SHA256.getSHA256FromString(str);
+        System.out.println(sha256);
     }
 }
