@@ -1,8 +1,6 @@
 package i_o;
 
 import java.io.File;
-import java.io.FileNotFoundException;
-
 
 public class Main {
     public static void main(String[] args) {
@@ -11,5 +9,8 @@ public class Main {
 
         InputOutputStreams.inputStream();
         InputOutputStreams.outputStream();
+
+        ReaderWriter.reader();
+        ReaderWriter.writer();
     }
 }

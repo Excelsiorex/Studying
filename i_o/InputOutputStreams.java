@@ -23,8 +23,17 @@ class InputOutputStreams {
             System.out.println("File2 size: " + fileInputStream2.available());
             System.out.println("Input and files size: "
                     + (byteArrayInputStream.available() + fileInputStream1.available() + fileInputStream2.available()));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
-            // Closing all streams
+        // Print data from all streams
+        printInputStream(byteArrayInputStream);
+        printInputStream(fileInputStream1);
+        printInputStream(fileInputStream2);
+
+        // Closing all streams
+        try {
             if (byteArrayInputStream != null) {
                 byteArrayInputStream.close();
             }
@@ -37,11 +46,6 @@ class InputOutputStreams {
         } catch (IOException e) {
             e.printStackTrace();
         }
-
-        // Print data from all streams
-        printInputStream(byteArrayInputStream);
-        printInputStream(fileInputStream1);
-        printInputStream(fileInputStream2);
     }
 
     private static void printInputStream(InputStream inputStream) {
