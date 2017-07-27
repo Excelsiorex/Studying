@@ -1,12 +1,15 @@
 package i_o;
 
 import java.io.File;
+import java.io.FileNotFoundException;
 
 
 public class Main {
     public static void main(String[] args) {
         FilesExample.getFileAndDirectoryNames(args);
+        FilesExample.getFileProperties(new File("i_o/TextFile1.txt"));
 
-        FilesExample.getFileProperties(new File("."));
+        InputOutputStreams.inputStream();
+        InputOutputStreams.outputStream();
     }
 }

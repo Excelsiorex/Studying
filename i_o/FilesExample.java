@@ -22,6 +22,7 @@ class FilesExample {
         } catch (IOException e) {
             e.printStackTrace();
         }
+        System.out.println("FILE CHANGE LAST MODIFIED TIME: " + file.setLastModified(10)); // set last file modification
         System.out.println("FILE LAST MODIFIED: " + format);
         System.out.println("FILE CAN READ: " + (file.canRead() ? "yes" : "no"));
         System.out.println("FILE CAN WRITE: " + (file.canWrite() ? "yes" : "no"));
