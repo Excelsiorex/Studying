@@ -1,2 +1,2 @@
-QWE
-asdf
+Hello, this wonderful language!
+Java is the best.
