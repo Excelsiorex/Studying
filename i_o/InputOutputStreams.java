@@ -25,9 +25,15 @@ class InputOutputStreams {
                     + (byteArrayInputStream.available() + fileInputStream1.available() + fileInputStream2.available()));
 
             // Closing all streams
-            byteArrayInputStream.close();
-            fileInputStream1.close();
-            fileInputStream2.close();
+            if (byteArrayInputStream != null) {
+                byteArrayInputStream.close();
+            }
+            if (fileInputStream1 != null) {
+                fileInputStream1.close();
+            }
+            if (fileInputStream2 != null) {
+                fileInputStream2.close();
+            }
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -55,14 +61,24 @@ class InputOutputStreams {
         String output2 = scanner.nextLine();
         scanner.close();
 
+        // Initialization
         File file1 = new File("i_o/TextFile1.txt");
         File file2 = new File("i_o/TextFile2.txt");
 
         OutputStream outputStream1 = null;
         OutputStream outputStream2 = null;
         try {
+            // Rewriting
             writeToFile(output1, file1);
             writeToFile(output2, file2);
+
+            // Closing all streams
+            if (outputStream1 != null) {
+                outputStream1.close();
+            }
+            if (outputStream2 != null) {
+                outputStream2.close();
+            }
         } catch (IOException e) {
             e.printStackTrace();
         }
