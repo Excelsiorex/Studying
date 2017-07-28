@@ -1,3 +1,4 @@
-QWEASD
-EI
-EOFF
+Hello, this wonderful language!
+Java is the best.
+Hello, this wonderful language!
+Java is the best.

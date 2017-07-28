@@ -1,6 +1,5 @@
 package i_o;
 
-import java.io.FileNotFoundException;
 import java.io.RandomAccessFile;
 
 class RandomAccessFileExample {
