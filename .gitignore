@@ -26,3 +26,5 @@ hs_err_pid*
 # Directories
 /.idea/
 /out/
+/.idea/vcs.xml
+/.idea/uiDesigner.xml
