@@ -8,8 +8,8 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
         int[] arr = new int[70000];
-        for (int i = arr.length - 1; i >= 0; i--) {
-            arr[i] = i;
+        for (int i = arr.length - 1, c = 0; i >= 0; i--, c++) {
+            arr[i] = c;
         }
 
         bubbleSort(arr);
@@ -17,8 +17,8 @@ public class Main {
     }
 
     private static void bubbleSort(int[] arr) {
-        for (int i = 0; i < arr.length / 2; i++) {
-            for (int j = 0; j < arr.length - 1; j++) {
+        for (int i = 0; i < arr.length - 1; i++) {
+            for (int j = 0; j < arr.length - i - 1; j++) {
                 if (arr[j] > arr[j + 1]) {
                     int temp = arr[j];
                     arr[j] = arr[j + 1];
