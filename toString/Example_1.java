@@ -1,12 +1,15 @@
 package toString;
 
 
-class Door {
+class Example_1 {
     private String s;
 
-    Door() {
-        System.out.println("Constructor runs!");
-        s = "String!";
+    Example_1() {
+        s = "Default String";
+    }
+
+    Example_1(String s) {
+        this.s = s;
     }
 
     @Override
