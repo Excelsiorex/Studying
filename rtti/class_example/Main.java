@@ -1,7 +1,23 @@
 package rtti.class_example;
 
+import com.sun.org.apache.bcel.internal.classfile.Synthetic;
+
 public class Main {
     public static void main(String[] args) {
+        classLoading();
+
+        classInfo();
+    }
+
+    private static void classInfo() {
+        Class candy = Candy.class;
+        ClassLoader candyClassLoader = candy.getClassLoader();
+        System.out.println("Class loader: " + candyClassLoader.toString());
+        System.out.println("Parent: " + candyClassLoader.getParent().toString());
+        System.out.println("Package: " + candy.getPackage().getName());
+    }
+
+    private static void classLoading() {
         System.out.println("START OF THE PROGRAM");
         new Candy();
         System.out.println("Class Candy after loading.");
