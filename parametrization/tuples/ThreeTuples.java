@@ -1,4 +1,4 @@
-package tuples;
+package parametrization.tuples;
 
 public class ThreeTuples<A, B, C> extends TwoTuples<A, B> {
     private final C third;

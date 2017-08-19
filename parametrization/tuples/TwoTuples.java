@@ -1,4 +1,4 @@
-package tuples;
+package parametrization.tuples;
 
 public class TwoTuples<A, B> {
     final A first;

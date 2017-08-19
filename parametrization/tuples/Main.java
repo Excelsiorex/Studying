@@ -1,4 +1,4 @@
-package tuples;
+package parametrization.tuples;
 
 import java.util.Random;
 
