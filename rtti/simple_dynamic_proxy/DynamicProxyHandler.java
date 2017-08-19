@@ -2,7 +2,6 @@ package rtti.simple_dynamic_proxy;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
-import java.util.Arrays;
 
 public class DynamicProxyHandler implements InvocationHandler {
     private Object proxied;
