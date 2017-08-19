@@ -1,7 +1,5 @@
 package rtti.class_example;
 
-import com.sun.org.apache.bcel.internal.classfile.Synthetic;
-
 public class Main {
     public static void main(String[] args) {
         classLoading();
