@@ -1,4 +1,4 @@
-package polymorpism;
+package polymorphism;
 
 
 class Circle extends Shape {
