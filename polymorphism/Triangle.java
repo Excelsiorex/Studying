@@ -13,34 +13,26 @@ class Triangle extends Shape {
     }
 
     @Override
-    public void erase() {
+    void erase() {
         super.erase();
         ifExists = false;
         this.length1 = null;
         this.length2 = null;
         this.length3 = null;
-        // тут еще код
-        System.out.println("Вы удалили свой ТРЕУГОЛЬНИК (возможно)");
+        // Some code
+        System.out.println("You've  deleted your triangle");
     }
 
     @Override
-    public void draw() {
+    void draw() {
         super.draw();
         ifExists = true;
-        // тут еще код
-        System.out.println("Вы создали новый ТРЕУГОЛЬНИК (возможно)");
+        // Some code
+        System.out.println("You've deleted your triangle");
     }
 
-    /**
-     * Приватный метод не может быть переобпределён
-     */
-    /*@Override
-    private void put() {
-        System.out.println("Вызов в обобщённом классе");
-    }*/
-
-    // new method
-    public void edit() {
-        System.out.println("Вы отредактировали ТРЕУГОЛЬНИК (возможно)");
+    // New method
+    void edit() {
+        System.out.println("You've edited your triangle");
     }
 }

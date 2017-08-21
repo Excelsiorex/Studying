@@ -11,29 +11,23 @@ class Circle extends Shape {
     }
 
     @Override
-    public void erase() {
+    void erase() {
         super.erase();
         isExists = false;
         radius = null;
-        // тут еще код
-        System.out.println("Вы удалили свой КРУГ (возможно)");
+        // Some code
+        System.out.println("You've deleted your circle");
     }
 
     @Override
-    public void draw() {
+    void draw() {
         super.draw();
         isExists = true;
-        // тут еще код
-        System.out.println("Вы создали новый КРУГ (возможно)");
+        // Some code
+        System.out.println("You've deleted your circle");
     }
 
-    // Приватный метод не может быть переобпределён
-    /*@Override
-    private void put() {
-        System.out.println("Вызов в обобщённом классе");
-    }*/
-
-    public void edit() {
-        System.out.println("Вы отредактировали КРУГ (возможно)");
+    void edit() {
+        System.out.println("You've edited your circle");
     }
 }

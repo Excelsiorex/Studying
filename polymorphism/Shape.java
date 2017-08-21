@@ -3,15 +3,15 @@ package polymorphism;
 
 class Shape {
 
-    public void erase() {
-        System.out.println("Вызов в обобщённом классе");
+    void erase() {
+        System.out.println("Call in superclass");
     }
 
-    public void draw() {
-        System.out.println("Вызов в обобщённом классе");
+    void draw() {
+        System.out.println("Call in superclass");
     }
 
     private void put() {
-        System.out.println("Вызов в обобщённом классе");
+        System.out.println("Call in superclass");
     }
 }
