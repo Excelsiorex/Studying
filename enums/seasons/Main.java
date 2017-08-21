@@ -1,4 +1,4 @@
-package enums;
+package enums.seasons;
 
 import java.util.Arrays;
 
