@@ -1,4 +1,4 @@
-package comparator;
+package comparison.comparator;
 
 class Product {
     private int count;

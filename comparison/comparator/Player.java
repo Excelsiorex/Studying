@@ -1,4 +1,4 @@
-package comparator;
+package comparison.comparator;
 
 class Player {
     private String name;

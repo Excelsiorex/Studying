@@ -1,4 +1,4 @@
-package comparable;
+package comparison.comparable;
 
 class ComparableExample implements Comparable<ComparableExample> {
     private int sum;
