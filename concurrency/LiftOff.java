@@ -1,6 +1,6 @@
 package concurrency;
 
-public class LiftOff implements Runnable {
+public class LiftOff implements Runnable, Cloneable {
     private int countDown = 10;
     private static int taskCount = 0;
     private final int id = taskCount++;
