@@ -1,4 +1,4 @@
-package concurrency;
+package concurrency.basic;
 
 public class LiftOff implements Runnable, Cloneable {
     private int countDown = 10;
