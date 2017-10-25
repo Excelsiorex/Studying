@@ -6,7 +6,7 @@ public class Main {
         Car car = new Car(detail, "Audi", 330);
         Car carClone;
         try {
-            carClone = (Car) car.clone();
+            carClone = car.clone();
 
             System.out.println("Before clone");
             System.out.println(car);

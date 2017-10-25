@@ -45,7 +45,14 @@ class Car implements Cloneable {
     }
 
     @Override
-    protected Object clone() throws CloneNotSupportedException {
-        return super.clone();
+    protected Car clone() throws CloneNotSupportedException {
+        Car car = null;
+        try {
+            car = (Car) super.clone();
+            car.detail = (Detail) detail.clone();
+        } catch (CloneNotSupportedException e) {
+            e.printStackTrace();
+        }
+        return car;
     }
 }
