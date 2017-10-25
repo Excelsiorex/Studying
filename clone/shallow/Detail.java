@@ -1,9 +1,9 @@
-package clone;
+package clone.shallow;
 
 class Detail implements Cloneable {
-    private String name;
-    private int width;
-    private int height;
+    String name;
+    int width;
+    int height;
 
     Detail(String name, int width, int height) {
         this.name = name;

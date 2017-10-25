@@ -1,33 +1,9 @@
-package clone;
+package clone.deep;
 
 class Car implements Cloneable {
-    private Detail detail;
-    private String name;
-    private int maxSpeed;
-
-    public Detail getDetail() {
-        return detail;
-    }
-
-    public void setDetail(Detail detail) {
-        this.detail = detail;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public int getMaxSpeed() {
-        return maxSpeed;
-    }
-
-    void setMaxSpeed(int maxSpeed) {
-        this.maxSpeed = maxSpeed;
-    }
+    Detail detail;
+    String name;
+    int maxSpeed;
 
     Car(Detail detail, String name, int maxSpeed) {
         this.detail = detail;

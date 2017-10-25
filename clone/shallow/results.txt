@@ -1,0 +1,10 @@
+Before changes
+Car{detail=clone.shallow.Detail@1540e19d, name='Audi', maxSpeed=330}
+Car{detail=clone.shallow.Detail@1540e19d, name='Audi', maxSpeed=330}
+Detail: Audi 330
+Detail clone: Audi 330
+After changes
+Car{detail=clone.shallow.Detail@1540e19d, name='Audi', maxSpeed=330}
+Car{detail=clone.shallow.Detail@1540e19d, name='Dima', maxSpeed=300}
+Detail: Audi 330
+Detail clone: Dima 300
