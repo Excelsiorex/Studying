@@ -15,9 +15,9 @@ class ReaderWriter {
         }
     }
 
-    private static void readBytes(Reader reader1) throws IOException {
+    private static void readBytes(Reader reader) throws IOException {
         int i;
-        while ((i = reader1.read()) != -1) {
+        while ((i = reader.read()) != -1) {
             System.out.print((char) i);
         }
         System.out.println();

@@ -32,7 +32,7 @@ class BufferedReaderWriter {
 
             // Write to file "TextFile2.txt"
             bufferedWriter.write(sb.toString());
-            
+
             bufferedReader1.close();
             bufferedWriter.close();
         } catch (IOException e) {

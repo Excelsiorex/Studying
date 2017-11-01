@@ -22,7 +22,7 @@ class RandomAccessFileExample {
             file.seek(4); // from
             int c;
             while ((c = file.read()) != -1) {
-                System.out.print(((char) c));
+                System.out.print((char) c);
             }
 
             // End of working
