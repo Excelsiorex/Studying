@@ -17,6 +17,5 @@ class Brackets {
             while (input.length() != (input = input.replaceAll("\\(\\)|\\[]|\\{}", "")).length()) ;
             System.out.println(input.isEmpty());
         }
-
     }
 }
